@@ -210,6 +210,7 @@ app.layout = html.Div(className="main-container", children=[
                             labelId='dropdown-label-1',
                             value=1,
                             variant="outlined",
+                            helperText="Choose one sequence",
                             options=[
                                 dict(primaryText='Option 1', value=1),
                                 dict(primaryText='Option 2', value=2),
